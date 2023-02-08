@@ -1,0 +1,231 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    width:100%;
+    height:100%;
+     background: linear-gradient(90deg, #ffecd2 0%, #fcb69f 100%); 
+    
+}
+/*the header*/
+header {
+    background-color: aliceblue;
+    width:100%;
+    height: 50px;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+  }
+  nav ul li{
+    display: inline-block;
+list-style-type: none;
+padding: 10px 20px;
+cursor: pointer;
+  }
+nav ul li a {
+    color:rgb(209, 27, 76);
+    font-weight: bold;
+  }
+  nav ul li a:hover{
+   color: rgb(0, 208, 255);
+   transition:4s;
+  } 
+.Portfo{
+    color:#e36e47;
+    font-size: 30px;
+    letter-spacing: 1px;
+}   
+ span{
+    color:rgb(213, 18, 15);
+    font-weight: bold;
+    font-size: 30px;
+ }  
+ /* the home */
+#Home{
+    width:100%;
+    height:100vh;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.home-left{
+    width: 60%;
+    height: 500px;
+    padding: 50px;  
+}
+.img1{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 3px 3px rgb(217, 0, 255), -1em 0 .4em rgb(128, 0, 55);
+    }
+    .img1:hover{
+        transform: translate(30px, 20px) rotate(20deg);}
+
+.home-right{
+    width: 30%;
+    padding: 50px;
+  text-align: center;
+}
+.home-right h1{
+    font-size: 36px;
+}
+.titre0{
+    font-size: 26px;
+
+}
+/* About */
+#about{
+   width:100%;
+    height:100vh;
+    }
+.titreh{
+        text-align: center;
+        border-radius:50px;
+        border: rosybrown dashed;
+        color:maroon;
+        margin:0 30px;
+   }
+   .about1{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:50px;
+}
+.about-left{
+    width: 60%;
+    height: 500px;
+    text-align: center;
+}
+   .about-left .my{
+    font-size: 36px;
+    color:#e14612;
+    text-align: center;
+    padding:20px ;
+text-decoration: underline #252121;
+  }
+   .about-left p{
+    font-size: 26px;
+    letter-spacing: 1px;
+    text-align: center;
+    
+   }
+.img2{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: #ffecd2;
+}
+.img2:hover{
+    transform: translate(30px, 20px) rotate(20deg);}
+/* projects */
+#project{
+    width:100%;
+    height:100vh;
+}
+.titrep{
+    text-align: center;
+    border-radius:50px;
+    border: rosybrown dashed;
+    color:maroon;
+    margin:0 30px;
+}
+.prj{
+    margin: 50px auto;
+    display: grid;
+    max-width: 1200px;
+    width:80%;
+    height:auto;
+    grid-template-columns:repeat(auto-fill, 350px);
+    justify-content: center;
+    grid-gap:10px;
+}
+.project1 :hover{
+    transform: translate(-42px, -18px);
+}
+h3{
+    text-align: center;
+    color: rgb(247, 74, 74);
+    font-family:  Courier, monospace;
+}
+/* Contact */
+#contact{
+    width:100%;
+    height:100vh;
+    }
+    .titre3{
+        text-align: center;
+        border-radius:50px;
+        border: rosybrown dashed;
+        color:maroon;
+        margin:0 30px;}
+        .formulaire{
+            display:flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .imageb{
+            width: 500px;
+            height: 500px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: #ffecd2;
+            padding:50px;
+        }
+       .imageb:hover{
+            transform: translate(30px, 20px) rotate(20deg);}
+        form{
+            margin: 20px 50px;
+            padding: 20px;
+            
+        }
+        form input{
+            border-radius: 4px;
+            padding:5px ;
+            font-size: 40px;
+        }
+        form label{
+            font-size: 30px;
+            color:#ff9a9e;
+        }
+         form textarea{
+            border-radius: 8px;
+            font-size: 36px;
+        }
+        form button{
+            margin: 8PX 100PX;
+            font-size: 36px;
+        }
+       .bott :hover{
+        transform: scale(0.5);
+       }
+        .adres{
+            text-align: center;
+            font-size: 30PX;
+           
+        }
+        strong{
+            color:rgb(16, 119, 197)
+            
+        }
+/*footer*/
+footer{
+    width:100%;
+    height: 50px;
+    background: white;
+     }
+     .imagec{
+width:20px;
+height:20px;
+     }
+     .dernier{
+        display: flex;
+        justify-content: space-around;
+     }
+   
+
