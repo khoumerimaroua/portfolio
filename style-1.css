@@ -16,6 +16,7 @@ header {
     width:100%;
     height: 50px;
     display:flex;
+    flex-wrap: wrap;
     justify-content:space-between;
     align-items: center;
   }
@@ -31,7 +32,7 @@ nav ul li a {
   }
   nav ul li a:hover{
    color: rgb(0, 208, 255);
-   transition:4s;
+   transition:1s;
   } 
 .Portfo{
     color:#e36e47;
@@ -50,6 +51,7 @@ nav ul li a {
     display:flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 .home-left{
     width: 60%;
@@ -95,10 +97,11 @@ nav ul li a {
     justify-content: space-around;
     align-items: center;
     padding:50px;
+    flex-wrap: wrap;
 }
 .about-left{
     width: 60%;
-    height: 500px;
+    height: 100px;
     text-align: center;
 }
    .about-left .my{
@@ -168,6 +171,7 @@ h3{
             display:flex;
             justify-content: space-around;
             align-items: center;
+            flex-wrap: wrap;
         }
         .imageb{
             width: 500px;
@@ -201,13 +205,11 @@ h3{
             margin: 8PX 100PX;
             font-size: 36px;
         }
-       .bott :hover{
-        transform: scale(0.5);
-       }
+    
         .adres{
             text-align: center;
             font-size: 30PX;
-           
+            
         }
         strong{
             color:rgb(16, 119, 197)
@@ -220,12 +222,70 @@ footer{
     background: white;
      }
      .imagec{
-width:20px;
-height:20px;
+width:50px;
+height:50px;
      }
      .dernier{
         display: flex;
         justify-content: space-around;
+        flex-wrap: wrap;
      }
-   
+    .fa-brands fa-github{
+width: 100px;
+    }
+   @media (max-width:900px){
+    nav ul li{
+        padding: 1px 1px;}
+    #Home{
+        width:100%;
+        height:80vh;
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .home-right{
+        width: 80%;
+        padding: 10px;
+     }
+  
+    .img1{
+        width: 300px;
+        height: 300px;
+        border-radius: 70%;
+        padding:10px 
+    }
+    #about{
+        width:100%;
+         height:140vh;
+         }
+    
+         .about1{
+         display:flex;
+         flex-direction: column-reverse;
+         flex-wrap: wrap;
+     }
+     
+        .about-left .my{
+         font-size: 36px;
+         color:#e14612;
+         text-align: center;
+     text-decoration: underline #252121;
+       }
+        .about-left p{
+         font-size: 26px;
+         letter-spacing: 1px;
+         text-align: center;
+         
+        }
+     .img2{
+         width: 300px;
+         height: 300px;
+         object-fit: cover;
+         border-radius: 50%;
+         border: #ffecd2;
+     }  
+     #project{
+        width:100%;
+        height:100vh;
 
+}
