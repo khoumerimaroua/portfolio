@@ -8,9 +8,7 @@ body{
     width:100%;
     height:100%;
      background: linear-gradient(90deg, #ffecd2 0%, #fcb69f 100%); 
-  
-    
-}
+  }
 /*the header*/
 header {
     background-color: aliceblue;
@@ -64,7 +62,7 @@ nav ul li a {
     height: 500px;
     border-radius: 50%;
     object-fit: cover;
-    box-shadow: 3px 3px rgb(217, 0, 255), -1em 0 .4em rgb(128, 0, 55);
+    box-shadow: 3px 3px rgb(48, 46, 49);
     }
     .img1:hover{
         transform: translate(30px, 20px) rotate(20deg);}
@@ -143,7 +141,7 @@ text-decoration: underline #252121;
     margin: 50px auto;
     display: grid;
     max-width: 1200px;
-height:auto;
+    height:auto;
     grid-template-columns:repeat(auto-fill, 350px);
     justify-content: center;
     grid-gap:10px;
@@ -201,8 +199,7 @@ h3{
             border-radius: 8px;
             font-size: 36px;
         }
-       
-        form button{
+         form button{
             font-size: 20px;
             margin-top:15px;
             margin-left: 425px;
@@ -231,29 +228,38 @@ height:50px;
         flex-wrap: wrap;
      }
    
-   @media (max-width:900px){
+     @media screen and (max-width:900px){
     nav ul li{
         padding: 1px 0.5px;}
     #Home{
         width:100%;
-        height:80vh;
+        height:50vh;
         display:flex;
         flex-direction: column;
-      
-    }
+       }
     .img1{
         width: 300px;
-        height: 40vh;}
-.home-right{
-      width: 30%;
-        height:40vh;
-        padding: 50px;
-      text-align: center;   
+        height: 40vh;
+    }
+      .home-right{
+        width: 30%;
+        padding: 10px;
+      text-align: center;
+    
 } 
+.home-right h1{
+    font-size: 20px;
+}
+.titre0{
+    font-size: 16px;}
+    span{
+        color:rgb(213, 18, 15);
+        font-weight: bold;
+        font-size: 16px;}
        
     #about{
         width:100%;
-         height:140vh;
+         height:110vh;
          }
     
          .about1{
@@ -284,5 +290,11 @@ height:50px;
      #project{
         width:100%;
         height:100vh;
-
+}
+#contact{
+    margin-top:100px;
+    margin-bottom: 500px;
+}
+.imageb{
+    
 }
